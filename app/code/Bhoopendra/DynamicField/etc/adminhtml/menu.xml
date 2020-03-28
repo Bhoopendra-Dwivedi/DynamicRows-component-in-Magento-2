@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+   <menu>
+   		<add id="Bhoopendra_DynamicField::top_level" module="Bhoopendra_DynamicField" resource="Bhoopendra_DynamicField::top_level" sortOrder="9999" title="Bhoopendra"/>
+
+   		<add id="Bhoopendra_DynamicField::parent" module="Bhoopendra_DynamicField" resource="Bhoopendra_DynamicField::parent" sortOrder="9999" title="Configuration" parent="Bhoopendra_DynamicField::top_level"/>
+
+       	<add id="Bhoopendra_DynamicField::dynamic_field" title="Dynamic Field" module="Bhoopendra_DynamicField" sortOrder="99" action="bhoopendra/field/index/scope/stores" parent="Bhoopendra_DynamicField::parent" resource="Bhoopendra_DynamicField::dynamic_field" />
+
+   </menu>
+</config>

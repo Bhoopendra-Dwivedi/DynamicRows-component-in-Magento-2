@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+   <acl>
+       <resources>
+           <resource id="Magento_Backend::admin">
+               <resource id="Bhoopendra_DynamicField::top_level">
+                   <resource id="Bhoopendra_DynamicField::parent">
+                       <resource id="Bhoopendra_DynamicField::dynamic_field" title="Dynamic Field"/>
+                   </resource>
+               </resource>
+           </resource>
+       </resources>
+   </acl>
+</config>
